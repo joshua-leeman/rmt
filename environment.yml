@@ -1,0 +1,40 @@
+name: rmt-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bzip2=1.0.8
+  - ca-certificates=2024.7.4
+  - expat=2.5.0
+  - libcxx=14.0.6
+  - libexpat=2.5.0
+  - libffi=3.4.4
+  - libsqlite=3.41.2
+  - libzlib=1.2.13
+  - ncurses=6.4.20240210
+  - openssl=3.3.1
+  - pip=23.3.1
+  - psutil=5.9.0
+  - python=3.12.2
+  - python-dotenv=1.0.1
+  - readline=8.2
+  - setuptools=68.2.2
+  - sqlite=3.41.2
+  - tk=8.6.12
+  - tzdata=2024a
+  - wheel=0.41.2
+  - xz=5.4.6
+  - zlib=1.2.13
+  - pip:
+      - contourpy==1.2.0
+      - cycler==0.12.1
+      - fonttools==4.49.0
+      - kiwisolver==1.4.5
+      - matplotlib==3.8.3
+      - numpy==1.26.4
+      - packaging==23.2
+      - pillow==10.2.0
+      - pyparsing==3.1.2
+      - python-dateutil==2.9.0.post0
+      - scipy==1.12.0
+      - six==1.16.0
